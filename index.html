@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Adadey's BIO</title>
+</head>
+<body class="body">
+   <div class="container">
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://wa.me/qr/OM44TP6F6ZW2I1" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <section class="profile">
+        <div class="picture"><img class="img" border="1px" width="100%" src="profile.jpg" alt="profile picture"></div>
+        <h1>Adu-Adadey Samuel &check;</h1>
+        <hr class="hr">&mdash;
+        <p>I'm a beginner web developer</p>
+    </section>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Nothing to see here</p>
+    </section>
+    <section class="skills">
+        <h2>My skills</h2>
+        <div class="divbox">
+            <div class="skill">HTML</div>
+            <div class="skill"> CSS</div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>contact me     </h2>
+        <form>
+           <div> <input type="text" placeholder="Name"></div>
+            <div><input type="text" placeholder="Email"></div>
+           <div> <textarea placeholder="Message"></textarea></div>
+           <button>Send</button>
+        </form>
+    </section>
+    <br><footer>
+        THIS IS MY FIRST REAL WEBSITE
+        <br><div class="22">@aadadeyjunior</div>
+       <br> <div class="22">&copy;2025</div>
+   </footer>
+   </div>
+    
+</body>
+
+<style>
+    @media(max-width:600px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+    .profile h1{
+        font-size: 22px;
+    }
+
+    .divbox{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.body{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background:rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgb(214, 214, 214);
+    border: none solid;
+    border-radius: 4px;
+}
+
+header a {
+    margin-left: 15px;
+    color: black;
+    
+}
+
+.profile{
+background: #b7cde5;
+    text-align: center;
+    padding: 40px 20px;
+    border: none solid;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.picture {
+    width: 120px;
+    height: 120px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img{
+    
+    border-radius: 100%;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+
+.about{
+    padding: 30px;
+    text-align: center;
+    background: rgb(214, 214, 214);
+    margin-top: 10px;
+    border: none solid;
+    border-radius: 4px;
+    
+}
+
+
+.hr{color: black;}
+
+.skills{
+    padding: 30px;
+    text-align: center;
+    background:  rgb(214, 214, 214);
+    margin-top: 10px;
+    border: none solid;
+    border-radius: 4px;
+}
+
+.divbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top:15px ;
+}
+
+.skill{
+    padding: 10px 20px;
+    border: solid 1px #827f7f;
+    border-radius: 5px;
+}
+
+.contact{
+    padding: 30px;
+    text-align: center;
+    background:  rgb(214, 214, 214);
+    border: none solid;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+
+.textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+
+button{
+    padding: 10px;
+    width: 100px;
+    background: #3b5f8a;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.5s;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #3b5f8a;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+
+footer{
+    background: #3b5f8a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 30px 30px;
+    margin-top: 10px;
+    border: none solid;
+    border-radius: 4px;
+}
+
+
+</style>
+</html>
